@@ -1,0 +1,99 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+  margin: auto;
+}
+
+.image {
+  position: fixed;
+  top: 4.5vw;
+  left: 4vw;
+  width: 50vw;
+  height: 50vw;
+}
+
+.text {
+  position: relative;
+  flex: 1;
+  font-family: 'JetBrains Mono', monospace; 
+  font-size: 15pt;
+  width: 50vw;
+  left: 25vw;
+  margin: 1.5vw;
+}
+  
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+
+}
+
+.quote-symbol {
+  position: absolute;
+  top: 15;
+  right: -20px; /* Adjust the distance from the right */
+  font-size: 50px; /* Adjust the font size */
+  color: #3A3B3C;
+}
+
+@media (max-width: 900px) {
+  body,
+  html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .image {
+    position: fixed;
+    top: 30vh; /* Adjusted top position */
+    left: 4vw;
+    width: 50vw;
+    height: 50vw;
+  }
+
+  .text {
+    position: relative;
+    flex: 1;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 15pt;
+    width: 50vw;
+    left: 25vw;
+    margin: 1.5vw;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+}
